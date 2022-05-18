@@ -8,6 +8,13 @@
 
 import React from 'react';
 import type {Node} from 'react';
+
+import { useState, useEffect } from 'react'
+import { supabase } from 'supabase-react/src/supabaseClient'
+import Auth from 'supabase-react/src/Auth'
+import Account from 'supabase-react/src/Account'
+
+
 import {
   SafeAreaView,
   ScrollView,
@@ -16,6 +23,8 @@ import {
   Text,
   useColorScheme,
   View,
+  Button,
+  Alert
 } from 'react-native';
 
 import {
@@ -52,6 +61,15 @@ const Section = ({children, title}): Node => {
   );
 };
 
+function WelcomeButton() {
+  return(<Button
+title="Learn More"
+color="#841584"
+accessibilityLabel="Learn more about this purple button"
+onPress={() => Alert.alert('Button with adjusted color pressed')}
+/>);
+}
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -59,8 +77,9 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-
   return (
+    <>
+    <WelcomeButton />
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
@@ -71,9 +90,9 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="Step One is here">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits. Does this work?
+            screen and then come back to see your edits. Hmm? 
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
@@ -88,6 +107,7 @@ const App: () => Node = () => {
         </View>
       </ScrollView>
     </SafeAreaView>
+    </>
   );
 };
 
