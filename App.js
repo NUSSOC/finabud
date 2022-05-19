@@ -64,11 +64,27 @@ const Section = ({children, title}): Node => {
 };
 
 function WelcomeButton() {
-  return(<Button
-title="Learn More"
-color="#841584"
-accessibilityLabel="Learn more about this purple button"
-onPress={() => Alert.alert('Button with adjusted color pressed')}
+  var randomAlerts = 
+  ["Are you bored? Find a friend to hang out with now!",
+   "Click 'Match now' to begin!",
+   "Remember to indicate your preferences for best results!",
+   "There's plenty of people here waiting to meet you!",
+   "You can flag a user if he/she makes you feel uncomfortable.",
+   "Reach out to us if you face any issues!",
+   "Always be courteous to others!",
+   "Being proactive is the first step to making close friends!",
+   "Sign in using your NUS-NET email address!",
+   "Thank you for using our app!",
+   "We hope you can find some new friends here! =)"];
+
+  var min = 0;
+  var max = randomAlerts.length - 1;
+
+  return (
+  <Button title = "Learn More"
+   color="#841584"
+   accessibilityLabel = "Learn more about this application"
+   onPress={() => Alert.alert(randomAlerts[Math.floor(Math.random() * (max - min + 1)) + min])}
 />);
 }
 
@@ -94,8 +110,9 @@ const App: () => Node = () => {
   
   return (
     <>
+
     <WelcomeButton />
-    <AnotherButton />
+
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
