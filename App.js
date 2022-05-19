@@ -35,6 +35,7 @@ import {
   Header,
   LearnMoreLinks,
   ReloadInstructions,
+  AnotherButton,
 } from 'react-native/Libraries/NewAppScreen';
 
 const Section = ({children, title}): Node => {
@@ -81,7 +82,8 @@ function WelcomeButton() {
   var max = randomAlerts.length - 1;
 
   return (
-  <Button title = "Learn More"
+  <Button 
+   title="Click for a random piece of advice!"
    color="#841584"
    accessibilityLabel = "Learn more about this application"
    onPress={() => Alert.alert(randomAlerts[Math.floor(Math.random() * (max - min + 1)) + min])}
@@ -89,15 +91,7 @@ function WelcomeButton() {
 }
 
 
-function AnotherButton() {
 
-   return(
-    <Button title = "Click me"
-    color = "#841584"
-    accessibilityLabel = "Wonder what I do?"
-    onPress = {() => Alert.alert("You pressed me!")}
-    />);
-}
 
 
 
@@ -112,6 +106,8 @@ const App: () => Node = () => {
     <>
 
     <WelcomeButton />
+    
+    <AnotherButton />
 
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
