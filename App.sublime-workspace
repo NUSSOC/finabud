@@ -1,0 +1,221 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ericl/testfindabud/test.js",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Rainbow.cpp",
+		"/C/Users/ericl/findabud/android/gradle/wrapper/gradle-wrapper.properties",
+		"/C/Users/ericl/testfindabud/supabase-react/src/App.js",
+		"/C/Users/ericl/testfindabud/App.js",
+		"/C/Users/ericl/OneDrive/Desktop/findabud/App.js",
+		"/C/Users/ericl/findabudbud/App.js",
+		"/C/Users/ericl/findabudbud/node_modules/react-native/Libraries/NewAppScreen/components/Header.js",
+		"/C/Users/ericl/findabud/android/build.gradle",
+		"/C/Users/ericl/findabud/android/app/build.gradle",
+		"/C/Users/ericl/findabud/android/settings.gradle",
+		"/C/Users/ericl/findabud/App.js",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/BigTruck.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/KaleidoscopicPalindromes.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/EbAltoSax.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/OutOfSorts.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Dyslectionary.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/DeceptiveDice.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/MusicalTrees.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/output.txt",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Illiteracy.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/EscapeWallMania.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Trojke.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/DASort.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Lektira.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/PostalDelivery.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/FindPoly.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/EqualSums.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/BrowniePoints.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/HeightOrdering.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/TrackingShares.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/CrackingTheSafe.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Dodecaphony.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Geppetto.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/SignProfile.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/MissingNumber.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/FizzBuzz.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/toflur.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Colorland.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/PolePosition.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/EtruscanWarriors.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Jumps.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/PleasantPairs.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/StableGroups.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/BeforeAnExam.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/CantinaOfBabel.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/Keyboardd.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/MagicTrick.cpp",
+		"/C/Users/ericl/OneDrive/Desktop/CompetitiveProgramming cpp/testagain.cpp",
+		"/C/Users/ericl/CS2040/Test.java",
+		"/C/Users/ericl/CS2040/HelloWorld.java"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "App.sublime-project",
+	"replace":
+	{
+		"height": 60.8
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

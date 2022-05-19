@@ -6,13 +6,14 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 import type {Node} from 'react';
 
 import { useState, useEffect } from 'react'
 import { supabase } from 'supabase-react/src/supabaseClient'
 import Auth from 'supabase-react/src/Auth'
 import Account from 'supabase-react/src/Account'
+
 
 
 import {
@@ -24,7 +25,8 @@ import {
   useColorScheme,
   View,
   Button,
-  Alert
+  Alert,
+  Platform
 } from 'react-native';
 
 import {
@@ -70,16 +72,30 @@ onPress={() => Alert.alert('Button with adjusted color pressed')}
 />);
 }
 
+
+function AnotherButton() {
+
+   return(
+    <Button title = "Click me"
+    color = "#841584"
+    accessibilityLabel = "Wonder what I do?"
+    onPress = {() => Alert.alert("You pressed me!")}
+    />);
+}
+
+
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
-
+  
   return (
     <>
     <WelcomeButton />
+    <AnotherButton />
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
@@ -129,5 +145,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 });
+
 
 export default App;
